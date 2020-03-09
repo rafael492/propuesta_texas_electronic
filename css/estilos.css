@@ -1,0 +1,153 @@
+body{
+    font: 15px arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*estilos globale*/
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0em;
+    padding: 0em;
+}
+button{
+    height: 38px;
+    background-color: #ee8844;
+    border: 0em;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white
+    }
+    /*encabezado*/
+header{
+        background-color: #24282b;
+        color: white;
+        padding-top: 30px;
+        min-height: 70;
+        border-bottom: 5px solid #1293d4;
+            }
+            header a{
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 16px;
+            
+            }
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    }
+
+header #marca{
+    float: left;
+    }
+header #marca h1{
+    margin: 0;
+    }
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .resaltado, header .actual a{
+    color: #1293d4;
+    font-weight: bold;
+    }
+header a :hover{
+    color: #ccc;
+    font-weight: bold;
+}
+/*cabecera con imagen */
+#cabecera{
+    min-height: 400px;
+    background: url('../img/banner.jpg')no-repeat 0 -400px;
+    text-align: center;
+    color: white;
+}
+#cabecera h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#cabecera p{
+    font-size: 20px;
+}
+/*formulario boletin*/
+#boletin{
+    padding: 15px;
+    color: white;
+    background-color: #24282b;
+}
+   
+
+
+/* cajas */
+#cajas{
+    margin-top: 5px;
+}
+#cajas .caja{
+    text-align: center;
+    width: 10%;
+    padding: 50px;
+
+}
+#cajas .caja{
+    width: 900px;
+}
+/*footer pie de pagina*/
+#footer{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    color:white;
+    background-color: #1293d4;
+}
+table{
+    width: 40%;
+    background-color: grey;
+    border-spacing: 1px; 
+
+    font-size: 10px;
+    border-color: black;
+    border: 1px solid black
+  }
+    
+   td{
+       background-color: lightblue;
+    border: 1px solid black
+   }
+   tr{
+       background-color: ivory;
+
+   }
+   /* lateral*/
+   aside#lateral{
+       float: right;
+       width: 30%;
+       margin-top: 10px;
+   }
+   .oscuro{
+       padding: 15px;
+       background-color: lightslategray;
+       color: white;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       
+    }
+    /* columnas */
+    article#main-col{
+        float: left;
+        width: 65%;
+
+    }
+    .azul_claro{
+        padding: 15px;
+        background-color: #1293d4;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
