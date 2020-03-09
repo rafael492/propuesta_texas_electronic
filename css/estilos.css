@@ -151,3 +151,22 @@ table{
         color: white;
         margin-top: 10px;
         margin-bottom: 10px;
+        
+        /* media qeries */
+        @media(max-width: 768px;){
+            header #marca,
+            header nav,
+            header nav li,
+            #cajas .caja,
+            article#main-col,
+            aside#lateral{
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            header{
+                padding-buttom: 20px;
+
+            }
+
+        }
