@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="assets/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Propuesta</title>
+</head>
+<body>
+    <header>  
+        <div class="contenedor">
+            <div id="marca">   
+                <img src="img/circuito.jpg" alt="">
+        <h1><span class="resaltado"> Texas</span> Electronic</h1>
+        </div>         
+</header>
+
+<section id="barra">
+    
+    <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Inicio </a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Utilidades.html" role="button" aria-haspopup="true" aria-expanded="false">Utilidades</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="inventario.html">Calcular Resistencias</a>
+      <a class="dropdown-item" href="Utilidades.html">Calcular Utilidades</a>
+      
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="inventario.html">Inventario</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="ventas.html">Ventas</a>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Administrador</a>
+</ul>
+<hr>
+   </section>
+    
+        <form name="ingresar" class="form-horizontal mt-5" action="inventario.html" role="form" method="POST">
+            <h3 class="text-center">Ingrese los datos del producto</h3>
+            <div class="row">
+                <p class="col-3 offset-3"><b>Código:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+                <p class="col-3 offset-3"><b>Nombre:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+
+                <p class="col-3 offset-3"><b>Marca:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+
+                <p class="col-3 offset-3"><b>Precio de compra:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+                <p class="col-3 offset-3"><b>Cantidad comprada:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+            </div>
+
+            <div class="text-center">
+                <input type="Button" name="" value="Guardar producto" onclick="guardar()" class="btn btn-primary mt-4 px-5">
+            </div>
+        </form>
+
+
+
+        <form name="Actualizar" class="form-horizontal mt-5" action="inventario.html" role="form" method="POST">
+            <h3 class="text-center">Actualizar un  producto</h3>
+            <div class="row">
+                <p class="col-3 offset-3"><b>Código:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+                <p class="col-3 offset-3"><b>Nombre:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+
+                <p class="col-3 offset-3"><b>Marca:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+
+                <p class="col-3 offset-3"><b>Precio de compra:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+                <p class="col-3 offset-3"><b>Cantidad comprada:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+
+            </div>
+
+            <div class="text-center">
+                <input type="Button" name="" value="Actualizar producto" onclick="actualizar()" class="btn btn-primary mt-4 px-5">
+            </div>
+        </form>
+
+
+
+        <form name="eliminar" class="form-horizontal mt-5" action="inventario.html" role="form" method="POST">
+            <h3 class="text-center">Eliminar producto</h3>
+            <div class="row">
+                <p class="col-3 offset-3"><b>Código del producto:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+            </div>
+
+            <div class="text-center">
+                <input type="Button" name="" value="Eliminar producto" onclick="eliminar()" class="btn btn-primary mt-4 px-5">
+            </div>
+        </form>
+
+
+
+
+        <form name="consultar" class="form-horizontal mt-5" action="inventario.html" role="form" method="POST">
+            <h3 class="text-center">Consultar producto</h3>
+            <div class="row">
+                <p class="col-3 offset-3"><b>Código del producto:</b></p>
+                <input name="banda1" class="form-control col-6 col-md-3">
+            </div>
+
+            <div class="text-center">
+                <input type="Button" name="" value="Consultar producto" onclick="consultar()" class="btn btn-primary mt-4 px-5">
+            </div>
+        </form>
+  <section id="footer">
+    <footer>
+    <p>Rafael Londoño programacion de sitios web</p>
+    <p>cc: 1054556786</p>
+    <p>Grupo-301127_29 </p>
+    <p>UNAD</p>
+    <p>Marzo del 2020</p>
+</footer>
+</section>
+</body>
+</html>
